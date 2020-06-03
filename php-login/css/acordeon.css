@@ -1,0 +1,61 @@
+.boton_titulo_seccion{
+	background: #913FA5;
+	color: black;
+	cursor: pointer;
+	padding: 18px;
+	width: 90%;					/*Se modifica las caracteristicas de los botones*/
+	border: none;
+	outline: none;
+	font-size: 18px;
+	transition: 0.4s;	
+	margin-left: 5%;
+
+}
+
+.contenedor-chi{
+	padding: 60px 0;
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+	width: 100%;
+}
+
+.dos{
+	margin-bottom: 50px;
+}
+
+.uno{
+	width: 100%;
+	background: #f2f2f2;
+	margin-bottom: 50px;
+}
+
+.contenido-textos{
+	width: 100%;
+}
+
+.active, .boton_titulo_seccion:hover{
+	background-color: hsla(340, 95%, 50%, .6);			/*Se moficica ative*/
+}
+
+.contenedor_seccion_uno{	
+	display: none;					/*Con esta linea desaparecera el codigo*/
+	background-color: #f2f2f2;
+	overflow: hidden;					/*Se modificara la clase de contenedores secciones*/
+	text-align: justify;
+	max-width: 90%;
+	margin-left: 5%;			/*Se modifica el margen*/
+}
+
+.contenedor_seccion{	
+	display: none;		
+	overflow: hidden;					/*Se modificara la clase de contenedores secciones*/
+	text-align: justify;
+	max-width: 90%;
+	margin-left: 5%;			/*Se modifica el margen*/
+}
+
+.contenedor{
+	max-width: 70%;
+	margin-left: 15%;				/*Se creara el contenedor*/
+}
